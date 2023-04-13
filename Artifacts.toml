@@ -1,0 +1,127 @@
+[[patch]]
+arch = "aarch64"
+git-tree-sha1 = "29cbb782159054b94c244bc56d5638913594bd83"
+os = "macos"
+
+    [[patch.download]]
+    sha256 = "52af54f8f7b9e14c1745d1bd249fc363abe6bf9d49d7bd835d3d4614e103f1bc"
+    url = "https://github.com/JuliaBinaryWrappers/patch_jll.jl/releases/download/patch-v2.7.6+0/patch.v2.7.6.aarch64-apple-darwin.tar.gz"
+[[patch]]
+arch = "aarch64"
+git-tree-sha1 = "1b5e6fd874daa6dae5cfbfa6997fcf240c240f02"
+libc = "glibc"
+os = "linux"
+
+    [[patch.download]]
+    sha256 = "91ace0ac285f6e7d2903453d1394876ba3c3569b96b76287bf174d8c21af2350"
+    url = "https://github.com/JuliaBinaryWrappers/patch_jll.jl/releases/download/patch-v2.7.6+0/patch.v2.7.6.aarch64-linux-gnu.tar.gz"
+[[patch]]
+arch = "aarch64"
+git-tree-sha1 = "d0a664ffc707b939a11ddd788b792b8f57ef3acf"
+libc = "musl"
+os = "linux"
+
+    [[patch.download]]
+    sha256 = "611c486930e5197ccb472e8499ece4eff98baf3ea80f001d86c3d7c412098e7b"
+    url = "https://github.com/JuliaBinaryWrappers/patch_jll.jl/releases/download/patch-v2.7.6+0/patch.v2.7.6.aarch64-linux-musl.tar.gz"
+[[patch]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "501ad982205f16abd9aa7f6a545077a615e81d57"
+libc = "glibc"
+os = "linux"
+
+    [[patch.download]]
+    sha256 = "119dc28818dba4c2de429e39760fe4caf0c71806840dda312ed550296f432238"
+    url = "https://github.com/JuliaBinaryWrappers/patch_jll.jl/releases/download/patch-v2.7.6+0/patch.v2.7.6.armv6l-linux-gnueabihf.tar.gz"
+[[patch]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "0e95f433fdf83ab9695388269c95f3dbe27af524"
+libc = "musl"
+os = "linux"
+
+    [[patch.download]]
+    sha256 = "6544b994ff51ea743e205dbe0a7ea361d6a789a9ab865417c52be1d7fc355615"
+    url = "https://github.com/JuliaBinaryWrappers/patch_jll.jl/releases/download/patch-v2.7.6+0/patch.v2.7.6.armv6l-linux-musleabihf.tar.gz"
+[[patch]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "26e3a57341428273c4172a0d2c775f3fa7766f60"
+libc = "glibc"
+os = "linux"
+
+    [[patch.download]]
+    sha256 = "8452fb74f1d9edac71b65380457c30900f57f410ac369cf7c2e5af2fa1f7bc54"
+    url = "https://github.com/JuliaBinaryWrappers/patch_jll.jl/releases/download/patch-v2.7.6+0/patch.v2.7.6.armv7l-linux-gnueabihf.tar.gz"
+[[patch]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "c9ad78d7c58dbe5f36903fd0ef5899270621b9fb"
+libc = "musl"
+os = "linux"
+
+    [[patch.download]]
+    sha256 = "ed023d44c26824d839dd731f33f4031bb7b4d481885ff7d05f482c44afec78ea"
+    url = "https://github.com/JuliaBinaryWrappers/patch_jll.jl/releases/download/patch-v2.7.6+0/patch.v2.7.6.armv7l-linux-musleabihf.tar.gz"
+[[patch]]
+arch = "i686"
+git-tree-sha1 = "02982e49ad0fdcf4500ff434aaece4512a6b3154"
+libc = "glibc"
+os = "linux"
+
+    [[patch.download]]
+    sha256 = "360ca1239676ea40ee5047172c71752e29f3d87ebb27154b668ba7cf525512bd"
+    url = "https://github.com/JuliaBinaryWrappers/patch_jll.jl/releases/download/patch-v2.7.6+0/patch.v2.7.6.i686-linux-gnu.tar.gz"
+[[patch]]
+arch = "i686"
+git-tree-sha1 = "5e83be6e273b68a8786224f24fdb9d9509f4ae83"
+libc = "musl"
+os = "linux"
+
+    [[patch.download]]
+    sha256 = "3ea20e4ad57a9a7e614754760eeb76ea28132b60dfd87d274caaf8f0e1032ca8"
+    url = "https://github.com/JuliaBinaryWrappers/patch_jll.jl/releases/download/patch-v2.7.6+0/patch.v2.7.6.i686-linux-musl.tar.gz"
+[[patch]]
+arch = "powerpc64le"
+git-tree-sha1 = "a91d3878a25111215d4cb24d621f9eca85a0cf4d"
+libc = "glibc"
+os = "linux"
+
+    [[patch.download]]
+    sha256 = "f6351aa37eb03b0c1e1dd938638d28cc8ce98f8fc9bbf014c6c1f13a8a73c172"
+    url = "https://github.com/JuliaBinaryWrappers/patch_jll.jl/releases/download/patch-v2.7.6+0/patch.v2.7.6.powerpc64le-linux-gnu.tar.gz"
+[[patch]]
+arch = "x86_64"
+git-tree-sha1 = "4f563c3745f25277a9d4961526829f277292e923"
+os = "macos"
+
+    [[patch.download]]
+    sha256 = "bf67b8795011e519fab8fda2db0fc72a4ae028147c5bad9aa623a474be1e9928"
+    url = "https://github.com/JuliaBinaryWrappers/patch_jll.jl/releases/download/patch-v2.7.6+0/patch.v2.7.6.x86_64-apple-darwin.tar.gz"
+[[patch]]
+arch = "x86_64"
+git-tree-sha1 = "f72727871fdc49c581c9feb27d67af7cd2c43727"
+libc = "glibc"
+os = "linux"
+
+    [[patch.download]]
+    sha256 = "5d84f0d64ca4c2641e0a87b8b5d6c73ab0b1a3d6f21214ad04e3523d88a051a4"
+    url = "https://github.com/JuliaBinaryWrappers/patch_jll.jl/releases/download/patch-v2.7.6+0/patch.v2.7.6.x86_64-linux-gnu.tar.gz"
+[[patch]]
+arch = "x86_64"
+git-tree-sha1 = "cc08fcefbb2463c1c892661edf96769f5db27a93"
+libc = "musl"
+os = "linux"
+
+    [[patch.download]]
+    sha256 = "83b0a55fe0a7672469406e01e0f60e915f00dff7ba8f2d7684cbf5e19cb6c9b3"
+    url = "https://github.com/JuliaBinaryWrappers/patch_jll.jl/releases/download/patch-v2.7.6+0/patch.v2.7.6.x86_64-linux-musl.tar.gz"
+[[patch]]
+arch = "x86_64"
+git-tree-sha1 = "c24209dac11e4953f185a55c13d305266c5efe75"
+os = "freebsd"
+
+    [[patch.download]]
+    sha256 = "e766f28ce46c57452e6fa0d46f9c9dfc2fb196c55c7ca307caed6226f73dbd45"
+    url = "https://github.com/JuliaBinaryWrappers/patch_jll.jl/releases/download/patch-v2.7.6+0/patch.v2.7.6.x86_64-unknown-freebsd.tar.gz"
